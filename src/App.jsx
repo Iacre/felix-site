@@ -26,7 +26,7 @@ function JourneyModal({ isOpen, onClose }) {
           {/* Childhood */}
           <div className="flex flex-col md:flex-row items-start gap-8">
             <img
-              src="/c.jpg" // Replace with actual path
+              src="/felix-site/c.jpg" // Replace with actual path
               alt="Childhood"
               className="w-full md:w-1/3 rounded-lg shadow-md object-cover"
             />
@@ -41,7 +41,7 @@ function JourneyModal({ isOpen, onClose }) {
           {/* Education Struggles */}
           <div className="flex flex-col md:flex-row-reverse items-start gap-8">
             <img
-              src="/s.jpg"
+              src="/felix-site/s.jpg"
               alt="School Days"
               className="w-full md:w-1/3 rounded-lg shadow-md object-cover"
             />
@@ -56,7 +56,7 @@ function JourneyModal({ isOpen, onClose }) {
           {/* Finding Faith */}
           <div className="flex flex-col md:flex-row items-start gap-8">
             <img
-              src="/lig.jpg"
+              src="/felix-site/lig.jpg"
               alt="Finding God"
               className="w-full md:w-1/3 rounded-lg shadow-md object-cover"
             />
@@ -71,7 +71,7 @@ function JourneyModal({ isOpen, onClose }) {
           {/* Graduation & Move to Canada */}
           <div className="flex flex-col md:flex-row-reverse items-start gap-8">
             <img
-              src="/g.jpg"
+              src="/felix-site/g.jpg"
               alt="Graduation"
               className="w-full md:w-1/3 rounded-lg shadow-md object-cover"
             />
@@ -86,7 +86,7 @@ function JourneyModal({ isOpen, onClose }) {
           {/* Success with Pauline */}
           <div className="flex flex-col md:flex-row items-start gap-8">
             <img
-              src="/l.jpg"
+              src="/felix-site/l.jpg"
               alt="With Pauline"
               className="w-full md:w-1/3 rounded-lg shadow-md object-cover"
             />
@@ -113,7 +113,7 @@ function App() {
         <div className="absolute inset-0 bg-gradient-to-b from-primary to-blue-900 opacity-80"></div>
         <div className="relative z-10">
           <img
-            src="/navg.jpg"
+            src="/felix-site/navg.jpg"
             alt="Felix Navaga"
             className="w-32 h-32 rounded-full mx-auto mb-6 border-4 border-secondary"
           />
@@ -141,7 +141,7 @@ function App() {
             I’m Felix Navaga, a cybersecurity pioneer leading CyberPro Group, a global firm with branches in Cameroon, the US, Canada, and Rwanda. As the pastor of Light Christian Center, I serve my community with faith and compassion. My passion for Africa drives my investments in secure online banking solutions, aiming to transform the continent’s digital future.
           </p>
           <img
-            src="/navg.jpg"
+            src="/felix-site/navg.jpg"
             alt="Felix Navaga at Work"
             className="md:w-1/3 rounded-lg shadow-lg"
           />
@@ -159,7 +159,7 @@ function App() {
             {["Cameroon", "US", "Canada", "Rwanda"].map((location) => (
               <div key={location} className="text-center">
                 <img
-                  src={`/public/location/${location.toLowerCase()}.jpg`}
+                  src={`/felix-site/location/${location.toLowerCase()}.png`}
                   alt={`${location} Branch`}
                   className="w-16 h-16 mx-auto mb-4"
                 />
@@ -178,7 +178,7 @@ function App() {
             As the pastor of Light Christian Center, I lead with a mission to inspire faith, hope, and unity. Based in Canada, our church is a beacon of light, fostering spiritual growth and community outreach.
           </p>
           <img
-            src="/lig.jpg"
+            src="/felix-site/lig.jpg"
             alt="Light Christian Center"
             className="md:w-1/3 rounded-lg shadow-lg"
           />
@@ -193,7 +193,7 @@ function App() {
             I’m committed to revolutionizing Africa’s digital landscape by investing in secure online banking and IT infrastructure, driving economic empowerment and connectivity.
           </p>
           <img
-            src="/bn.jpg"
+            src="/felix-site/bn.jpg"
             alt="Online Banking Vision"
             className="w-full max-w-md mx-auto rounded-lg shadow-lg"
           />
@@ -206,7 +206,7 @@ function App() {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           <div className="text-center p-6 bg-white rounded-lg shadow-md">
             <img
-              src="/a1.jpg"
+              src="/felix-site/a1.jpg"
               alt="Award Icon"
               className="w-12 h-12 mx-auto mb-4"
             />
@@ -215,7 +215,7 @@ function App() {
           </div>
           <div className="text-center p-6 bg-white rounded-lg shadow-md">
             <img
-              src="/a2.jpg"
+              src="/felix-site/a2.jpg"
               alt="Community Icon"
               className="w-12 h-12 mx-auto mb-4"
             />
@@ -224,7 +224,7 @@ function App() {
           </div>
           <div className="text-center p-6 bg-white rounded-lg shadow-md">
             <img
-              src="/a3.jpg"
+              src="/felix-site/a3.jpg"
               alt="Investment Icon"
               className="w-12 h-12 mx-auto mb-4"
             />
@@ -241,7 +241,7 @@ function App() {
           <div className="space-y-8">
             <div className="flex items-start gap-4">
               <img
-                src="/deg.png"
+                src="/felix-site/deg.png"
                 alt="Degree Icon"
                 className="w-10 h-10"
               />
@@ -252,7 +252,7 @@ function App() {
             </div>
             <div className="flex items-start gap-4">
               <img
-                src="/deg.png"
+                src="/felix-site/deg.png"
                 alt="Degree Icon"
                 className="w-10 h-10"
               />
